@@ -11,7 +11,7 @@ import {
 import { keepPreviousData } from "@tanstack/react-query"
 import { RowSelectionState } from "@tanstack/react-table"
 import { useCallback, useMemo, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { useNavigate } from "react-router-dom"
 import { DataTable } from "../../../../../components/data-table"
 import * as hooks from "../../../../../components/data-table/helpers/sales-channels"

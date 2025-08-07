@@ -11,7 +11,7 @@ import {
 import { format } from "date-fns"
 import { Collapsible as RadixCollapsible } from "radix-ui"
 import { useEffect, useRef, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { useLocation } from "react-router-dom"
 import {
   STEP_ERROR_STATES,

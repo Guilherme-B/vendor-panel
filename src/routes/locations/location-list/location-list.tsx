@@ -1,6 +1,6 @@
 import { ShoppingBag } from "@medusajs/icons"
 import { Container, Heading } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { useLoaderData } from "react-router-dom"
 
 import { useStockLocations } from "../../../hooks/api/stock-locations"

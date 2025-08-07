@@ -4,7 +4,7 @@ import { AdminOrder, AdminReturn } from "@medusajs/types"
 import { Alert, Button, Input, Switch, Text, toast } from "@medusajs/ui"
 import { useEffect, useMemo } from "react"
 import { useForm } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import * as zod from "zod"
 
 import { Form } from "../../../../../components/common/form"

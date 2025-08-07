@@ -3,7 +3,7 @@ import { HttpTypes } from "@medusajs/types"
 import { Button } from "@medusajs/ui"
 import { useMemo } from "react"
 import { useForm } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import * as zod from "zod"
 
 import { RouteFocusModal, useRouteModal } from "../../../components/modals"

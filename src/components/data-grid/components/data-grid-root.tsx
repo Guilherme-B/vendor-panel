@@ -26,7 +26,7 @@ import React, {
   useState,
 } from "react"
 import { FieldValues, UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 
 import { useCommandHistory } from "../../../hooks/use-command-history"
 import { ConditionalTooltip } from "../../common/conditional-tooltip"

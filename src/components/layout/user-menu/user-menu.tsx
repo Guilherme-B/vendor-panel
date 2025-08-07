@@ -16,7 +16,7 @@ import {
   clx,
 } from "@medusajs/ui"
 import { Dialog as RadixDialog } from "radix-ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 
 import { Skeleton } from "../../common/skeleton"
 

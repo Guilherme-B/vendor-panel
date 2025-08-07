@@ -15,7 +15,7 @@ import {
 } from "@medusajs/ui"
 import { Collapsible as RadixCollapsible } from "radix-ui"
 import { ComponentPropsWithoutRef } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { FetchError } from "@medusajs/js-sdk"
 import { ActionMenu } from "../../../../../components/common/action-menu"

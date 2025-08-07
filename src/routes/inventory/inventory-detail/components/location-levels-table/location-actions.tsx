@@ -2,7 +2,7 @@ import { PencilSquare, Trash } from "@medusajs/icons"
 
 import { InventoryTypes } from "@medusajs/types"
 import { usePrompt } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { useDeleteInventoryItemLevel } from "../../../../../hooks/api/inventory"
 

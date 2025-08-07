@@ -1,7 +1,7 @@
 import { createDataTableFilterHelper } from "@medusajs/ui"
 import { subDays, subMonths } from "date-fns"
 import { useMemo } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 
 import { useDate } from "../../../../hooks/use-date"
 

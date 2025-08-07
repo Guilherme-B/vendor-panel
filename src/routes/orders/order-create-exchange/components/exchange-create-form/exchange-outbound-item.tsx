@@ -2,7 +2,7 @@ import { XCircle } from "@medusajs/icons"
 import { AdminOrderLineItem, HttpTypes } from "@medusajs/types"
 import { Input, Text } from "@medusajs/ui"
 import { UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { Form } from "../../../../../components/common/form"

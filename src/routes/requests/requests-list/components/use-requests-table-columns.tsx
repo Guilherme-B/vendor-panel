@@ -1,6 +1,6 @@
 import { createColumnHelper } from "@tanstack/react-table"
 import { useMemo } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 import { DateCell } from "../../../../components/table/table-cells/common/date-cell"
 import { StatusCell } from "../../../../components/table/table-cells/request/status-cell"
 import { RequestsActions } from "./requests-actions"

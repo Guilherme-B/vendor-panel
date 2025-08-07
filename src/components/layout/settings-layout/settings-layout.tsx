@@ -2,7 +2,7 @@ import { ArrowUturnLeft, MinusMini } from "@medusajs/icons"
 import { clx, Divider, IconButton, Text } from "@medusajs/ui"
 import { Collapsible as RadixCollapsible } from "radix-ui"
 import { Fragment, useEffect, useMemo, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { Link, useLocation } from "react-router-dom"
 
 import { INavItem, NavItem } from "../nav-item"

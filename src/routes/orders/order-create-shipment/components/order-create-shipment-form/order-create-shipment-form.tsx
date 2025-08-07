@@ -1,5 +1,5 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import * as zod from "zod"
 
 import { AdminFulfillment, AdminOrder } from "@medusajs/types"

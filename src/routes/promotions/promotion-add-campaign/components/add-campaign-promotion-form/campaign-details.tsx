@@ -1,7 +1,7 @@
 import { AdminCampaign } from "@medusajs/types"
 import { Heading, Text } from "@medusajs/ui"
 import { Fragment } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 type CampaignDetailsProps = {
   campaign?: AdminCampaign

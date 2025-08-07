@@ -3,7 +3,7 @@ import { HttpTypes } from "@medusajs/types"
 import { Button, toast, usePrompt } from "@medusajs/ui"
 import { useEffect, useMemo, useRef, useState } from "react"
 import { DefaultValues, useForm } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { DataGrid } from "../../../../../components/data-grid"
 import {

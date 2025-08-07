@@ -9,7 +9,7 @@ import {
 import { keepPreviousData } from "@tanstack/react-query"
 import { useMemo, useState } from "react"
 import { useForm } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import * as zod from "zod"
 
 import { DataTable } from "../../../../../components/data-table"

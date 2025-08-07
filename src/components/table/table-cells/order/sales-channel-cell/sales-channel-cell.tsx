@@ -1,5 +1,5 @@
 import { HttpTypes } from "@medusajs/types"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 export const SalesChannelCell = ({
   channel,

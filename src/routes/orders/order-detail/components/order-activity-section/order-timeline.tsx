@@ -11,7 +11,7 @@ import {
   AdminOrderChange,
   AdminReturn,
 } from "@medusajs/types"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { AdminOrderLineItem } from "@medusajs/types"
 import { By } from "../../../../../components/common/user-link"

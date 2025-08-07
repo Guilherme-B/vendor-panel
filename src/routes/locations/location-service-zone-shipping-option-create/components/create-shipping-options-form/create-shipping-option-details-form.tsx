@@ -1,6 +1,6 @@
 import { Divider, Heading, Input, RadioGroup, Select, Text } from "@medusajs/ui"
 import { UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { HttpTypes } from "@medusajs/types"
 

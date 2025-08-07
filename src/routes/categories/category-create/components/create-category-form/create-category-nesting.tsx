@@ -3,7 +3,7 @@ import { Badge } from "@medusajs/ui"
 import { useMemo, useState } from "react"
 import { UseFormReturn, useWatch } from "react-hook-form"
 
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { useProductCategories } from "../../../../../hooks/api/categories"
 import { CategoryTree } from "../../../common/components/category-tree"
 import { CategoryTreeItem } from "../../../common/types"

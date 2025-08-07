@@ -3,7 +3,7 @@ import { ColumnDef } from "@tanstack/react-table"
 import { TFunction } from "i18next"
 import { useMemo } from "react"
 import { FieldPath, FieldValues } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 import { IncludesTaxTooltip } from "../../../../components/common/tax-badge/tax-badge"
 import {
   createDataGridHelper,

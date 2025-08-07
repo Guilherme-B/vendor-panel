@@ -5,7 +5,7 @@ import { InventoryTypes } from "@medusajs/types"
 import { PencilSquare } from "@medusajs/icons"
 import { SectionRow } from "../../../../../components/common/section"
 import { getFormattedCountry } from "../../../../../lib/addresses"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 type InventoryItemAttributeSectionProps = {
   inventoryItem: InventoryTypes.InventoryItemDTO

@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { DateCell } from "../../common/date-cell"
 import { PlaceholderCell } from "../../common/placeholder-cell"
 

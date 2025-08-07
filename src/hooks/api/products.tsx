@@ -7,9 +7,9 @@ import {
   useQuery,
   UseQueryOptions,
 } from "@tanstack/react-query"
-import { fetchQuery, importProductsQuery, sdk } from "../../lib/client"
-import { queryClient } from "../../lib/query-client"
-import { queryKeysFactory } from "../../lib/query-key-factory"
+import { fetchQuery, importProductsQuery, sdk } from "../../lib/client/index.ts"
+import { queryClient } from "../../lib/query-client.ts"
+import { queryKeysFactory } from "../../lib/query-key-factory.ts"
 import { inventoryItemsQueryKeys } from "./inventory.tsx"
 import {
   checkCategoryMatch,
@@ -17,8 +17,8 @@ import {
   checkTagMatch,
   checkTypeMatch,
   checkStatusMatch,
-} from "./helpers/productFilters"
-import productsImagesFormatter from "../../utils/products-images-formatter"
+} from "./helpers/productFilters.ts"
+import productsImagesFormatter from "../../utils/products-images-formatter.ts"
 
 const PRODUCTS_QUERY_KEY = "products" as const
 export const productsQueryKeys = queryKeysFactory(PRODUCTS_QUERY_KEY)

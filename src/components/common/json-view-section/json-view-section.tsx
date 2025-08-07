@@ -15,7 +15,7 @@ import {
 } from "@medusajs/ui"
 import Primitive from "@uiw/react-json-view"
 import { CSSProperties, MouseEvent, Suspense, useState } from "react"
-import { Trans, useTranslation } from "react-i18next"
+import { Trans, useTranslation } from "../../../../node_modules/react-i18next"
 
 type JsonViewSectionProps = {
   data: object

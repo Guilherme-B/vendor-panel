@@ -1,5 +1,5 @@
 import { ReactNode, useMemo, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { Link } from "react-router-dom"
 
 import {

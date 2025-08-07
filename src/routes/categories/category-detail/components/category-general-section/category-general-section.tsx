@@ -1,6 +1,6 @@
 import { HttpTypes } from "@medusajs/types"
 import { Container, Heading, Text } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 type CategoryGeneralSectionProps = {
   category: HttpTypes.AdminProductCategory
 }

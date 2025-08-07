@@ -1,6 +1,6 @@
 import { useCallback } from "react"
 import { UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { z } from "zod"
 import {
   FileType,

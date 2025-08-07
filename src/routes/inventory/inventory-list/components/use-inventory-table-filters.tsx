@@ -1,6 +1,6 @@
 import { Filter } from "../../../../components/table/data-table"
 import { useStockLocations } from "../../../../hooks/api/stock-locations"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 
 export const useInventoryTableFilters = () => {
   const { t } = useTranslation()

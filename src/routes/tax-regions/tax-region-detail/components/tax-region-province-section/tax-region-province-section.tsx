@@ -1,7 +1,7 @@
 import { HttpTypes } from "@medusajs/types"
 import { Container, Heading } from "@medusajs/ui"
 import { keepPreviousData } from "@tanstack/react-query"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { useTaxRegions } from "../../../../../hooks/api/tax-regions"
 import { useTaxRegionTableQuery } from "../../../../../hooks/table/query/use-tax-region-table-query"
 import { getCountryProvinceObjectByIso2 } from "../../../../../lib/data/country-states"

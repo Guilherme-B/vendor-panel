@@ -1,7 +1,7 @@
 import { OnChangeFn, RowSelectionState } from "@tanstack/react-table"
 import { useState } from "react"
 
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { _DataTable } from "../../../../../components/table/data-table"
 import { useVariants } from "../../../../../hooks/api"
 import { useDataTable } from "../../../../../hooks/use-data-table"

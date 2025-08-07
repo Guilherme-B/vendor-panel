@@ -1,6 +1,6 @@
 import { Popover, Text } from "@medusajs/ui"
 import { ReactNode, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 type ChangeDetailsTooltipProps = {
   previous: ReactNode

@@ -3,7 +3,7 @@ import { clx } from "@medusajs/ui"
 import { Command } from "cmdk"
 import { Popover as RadixPopover } from "radix-ui"
 import { useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 
 import { useSelectedParams } from "../hooks"
 import { useDataTableFilterContext } from "./context"

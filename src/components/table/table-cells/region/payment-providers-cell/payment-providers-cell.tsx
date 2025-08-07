@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { PaymentProviderDTO } from "@medusajs/types"
 
 import { formatProvider } from "../../../../../lib/format-provider"

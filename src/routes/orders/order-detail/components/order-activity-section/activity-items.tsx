@@ -6,7 +6,7 @@ import {
 } from "@medusajs/types"
 import { Popover, Text } from "@medusajs/ui"
 import { useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { Thumbnail } from "../../../../../components/common/thumbnail"
 
 type ActivityItemsProps = {

@@ -10,7 +10,7 @@ import {
 } from "@medusajs/ui"
 import { Dialog as RadixDialog } from "radix-ui"
 import { useMemo, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 
 const useDataGridShortcuts = () => {
   const { t } = useTranslation()

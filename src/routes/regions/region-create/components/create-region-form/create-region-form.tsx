@@ -14,7 +14,7 @@ import {
 import { RowSelectionState, createColumnHelper } from "@tanstack/react-table"
 import { useMemo, useState } from "react"
 import { useForm, useWatch } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import * as zod from "zod"
 
 import { PaymentProviderDTO, RegionCountryDTO } from "@medusajs/types"

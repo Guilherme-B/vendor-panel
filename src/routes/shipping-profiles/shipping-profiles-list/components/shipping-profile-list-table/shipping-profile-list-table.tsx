@@ -2,7 +2,7 @@ import { Button, Container, Heading, Text } from "@medusajs/ui"
 import { Link } from "react-router-dom"
 
 import { keepPreviousData } from "@tanstack/react-query"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { _DataTable } from "../../../../../components/table/data-table"
 import { useShippingProfiles } from "../../../../../hooks/api/shipping-profiles"
 import { useDataTable } from "../../../../../hooks/use-data-table"

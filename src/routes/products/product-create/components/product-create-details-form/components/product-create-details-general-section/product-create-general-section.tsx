@@ -1,6 +1,6 @@
 import { Input, Textarea } from "@medusajs/ui"
 import { UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../../../node_modules/react-i18next"
 
 import { Form } from "../../../../../../../components/common/form"
 import { HandleInput } from "../../../../../../../components/inputs/handle-input"

@@ -10,7 +10,7 @@ import {
 } from "@medusajs/ui"
 import { useEffect } from "react"
 import { useWatch } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { Form } from "../../../../../components/common/form"
 import { useStore } from "../../../../../hooks/api/store"

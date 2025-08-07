@@ -1,6 +1,6 @@
 import { HttpTypes } from "@medusajs/types"
 import { Button, Input } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import * as zod from "zod"
 import { Form } from "../../../../../components/common/form"
 import { CountrySelect } from "../../../../../components/inputs/country-select"

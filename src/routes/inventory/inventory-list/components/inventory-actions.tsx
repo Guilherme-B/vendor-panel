@@ -4,7 +4,7 @@ import { ActionMenu } from "../../../../components/common/action-menu"
 import { InventoryItemDTO } from "@medusajs/types"
 import { useDeleteInventoryItem } from "../../../../hooks/api/inventory"
 import { usePrompt } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 
 export const InventoryActions = ({ item }: { item: InventoryItemDTO }) => {
   const { t } = useTranslation()

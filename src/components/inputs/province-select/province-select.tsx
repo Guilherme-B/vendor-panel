@@ -7,7 +7,7 @@ import {
 
 import { TrianglesMini } from "@medusajs/icons"
 import { clx } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { getCountryProvinceObjectByIso2 } from "../../../lib/data/country-states"
 
 interface ProvinceSelectProps extends ComponentPropsWithoutRef<"select"> {

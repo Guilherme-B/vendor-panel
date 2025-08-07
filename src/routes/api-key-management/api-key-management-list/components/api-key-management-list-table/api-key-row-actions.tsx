@@ -1,7 +1,7 @@
 import { SquareTwoStack, Trash } from "@medusajs/icons"
 import { AdminApiKeyResponse } from "@medusajs/types"
 import { toast, usePrompt } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { useDeleteApiKey } from "../../../../../hooks/api/api-keys"
 

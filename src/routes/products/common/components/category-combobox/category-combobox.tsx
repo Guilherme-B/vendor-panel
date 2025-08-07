@@ -20,7 +20,7 @@ import {
   useRef,
   useState,
 } from "react"
-import { Trans, useTranslation } from "react-i18next"
+import { Trans, useTranslation } from "../../../../../../node_modules/react-i18next"
 import { TextSkeleton } from "../../../../../components/common/skeleton"
 import { useProductCategories } from "../../../../../hooks/api/categories"
 import { useDebouncedSearch } from "../../../../../hooks/use-debounced-search"

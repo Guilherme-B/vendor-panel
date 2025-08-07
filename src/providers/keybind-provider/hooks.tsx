@@ -1,6 +1,6 @@
 import debounceFn from "lodash/debounce"
 import { useCallback, useContext, useEffect, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../node_modules/react-i18next"
 import { useNavigate } from "react-router-dom"
 
 import { useLogout } from "../../hooks/api/auth"

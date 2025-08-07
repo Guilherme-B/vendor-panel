@@ -1,6 +1,6 @@
 import { ArrowUpRightOnBox } from "@medusajs/icons"
 import { Badge, Container, Heading, IconButton } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { Link } from "react-router-dom"
 
 type MetadataSectionProps<TData extends object> = {

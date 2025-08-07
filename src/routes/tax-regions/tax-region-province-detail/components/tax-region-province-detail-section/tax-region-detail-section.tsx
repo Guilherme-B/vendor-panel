@@ -1,6 +1,6 @@
 import { HttpTypes } from "@medusajs/types"
 import { Badge, Container, Tooltip } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { TaxRateLine } from "../../../common/components/tax-rate-line"
 import { TaxRegionCard } from "../../../common/components/tax-region-card"

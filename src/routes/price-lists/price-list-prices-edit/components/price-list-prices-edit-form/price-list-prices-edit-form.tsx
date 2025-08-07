@@ -2,7 +2,7 @@ import { HttpTypes } from "@medusajs/types"
 import { Button, toast } from "@medusajs/ui"
 import { useRef } from "react"
 import { useForm } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { z } from "zod"
 
 import { DataGrid } from "../../../../../components/data-grid"

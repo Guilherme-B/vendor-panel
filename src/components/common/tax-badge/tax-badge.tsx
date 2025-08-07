@@ -1,6 +1,6 @@
 import { TaxExclusive, TaxInclusive } from "@medusajs/icons"
 import { Tooltip } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 
 type IncludesTaxTooltipProps = {
   includesTax?: boolean

@@ -1,5 +1,5 @@
 import { Heading } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { RouteDrawer } from "../../../components/modals"
 import { EditStoreForm } from "./components/edit-store-form/edit-store-form"
 import { useMe } from "../../../hooks/api"

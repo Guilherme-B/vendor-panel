@@ -1,7 +1,7 @@
 import { HttpTypes } from "@medusajs/types"
 import { Alert, Button, Text } from "@medusajs/ui"
 import { useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { getCountryProvinceObjectByIso2 } from "../../../../../lib/data/country-states"
 
 type TaxRegionSublevelAlertProps = {

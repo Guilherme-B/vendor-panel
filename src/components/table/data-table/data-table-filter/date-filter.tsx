@@ -5,7 +5,7 @@ import { Popover as RadixPopover } from "radix-ui"
 import { useMemo, useState } from "react"
 
 import { t } from "i18next"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 import { useDate } from "../../../../hooks/use-date"
 import { useSelectedParams } from "../hooks"
 import { useDataTableFilterContext } from "./context"

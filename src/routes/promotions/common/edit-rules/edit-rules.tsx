@@ -1,6 +1,6 @@
 import { PromotionRuleDTO } from "@medusajs/types"
 import { Heading } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 import { useParams } from "react-router-dom"
 import { RouteDrawer } from "../../../../components/modals"
 import { usePromotion } from "../../../../hooks/api/promotions"

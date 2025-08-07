@@ -3,7 +3,7 @@ import { Container, Heading, Text } from "@medusajs/ui"
 
 import { RowSelectionState } from "@tanstack/react-table"
 import { useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 import { useNavigate } from "react-router-dom"
 import { _DataTable } from "../../../../components/table/data-table"
 import { useInventoryItems } from "../../../../hooks/api/inventory"

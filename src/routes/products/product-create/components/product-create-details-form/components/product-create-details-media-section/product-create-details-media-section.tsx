@@ -28,7 +28,7 @@ import {
 import { IconButton, Text } from "@medusajs/ui"
 import { useState } from "react"
 import { useFieldArray, UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../../../node_modules/react-i18next"
 import { ActionMenu } from "../../../../../../../components/common/action-menu"
 import { UploadMediaFormItem } from "../../../../../common/components/upload-media-form-item"
 import { ProductCreateSchemaType } from "../../../../types"

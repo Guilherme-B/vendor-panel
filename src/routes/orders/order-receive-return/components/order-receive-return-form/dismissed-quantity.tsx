@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react"
 import { HeartBroken } from "@medusajs/icons"
 import { UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { AdminOrderLineItem } from "@medusajs/types"
 import { Button, Input, Popover, toast } from "@medusajs/ui"

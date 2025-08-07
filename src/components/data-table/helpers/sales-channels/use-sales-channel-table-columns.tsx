@@ -1,6 +1,6 @@
 import { HttpTypes } from "@medusajs/types"
 import { useMemo } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 
 import { createDataTableColumnHelper, Tooltip } from "@medusajs/ui"
 import { DataTableStatusCell } from "../../components/data-table-status-cell/data-table-status-cell"

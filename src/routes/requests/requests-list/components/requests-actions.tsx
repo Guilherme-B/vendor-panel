@@ -1,7 +1,7 @@
 import { PencilSquare } from "@medusajs/icons"
 
 import { ActionMenu } from "../../../../components/common/action-menu"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 
 const getRequestType = (type: string) => {
   switch (type) {

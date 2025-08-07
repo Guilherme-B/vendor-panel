@@ -1,7 +1,7 @@
 import { HttpTypes } from "@medusajs/types"
 import { AnimatePresence } from "motion/react"
 import { Suspense, useEffect, useRef, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { Await, useParams } from "react-router-dom"
 
 import { ColumnDef } from "@tanstack/react-table"

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { CurrencyDollar } from "@medusajs/icons"
 import { HttpTypes } from "@medusajs/types"

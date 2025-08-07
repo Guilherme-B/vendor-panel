@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { Filter } from "../../../components/table/data-table"
 import { useCollections, useProductCategories, useProductTags } from "../../api"
 import { useProductTypes } from "../../api/product-types"

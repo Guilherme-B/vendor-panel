@@ -7,7 +7,7 @@ import {
 } from "@medusajs/icons"
 import { Button, IconButton, Text, Tooltip, clx, usePrompt } from "@medusajs/ui"
 import { useCallback, useEffect, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { Link, useLocation } from "react-router-dom"
 
 import { HttpTypes } from "@medusajs/types"

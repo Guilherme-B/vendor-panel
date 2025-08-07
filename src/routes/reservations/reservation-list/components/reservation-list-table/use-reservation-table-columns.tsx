@@ -1,6 +1,6 @@
 import { createColumnHelper } from "@tanstack/react-table"
 import { useMemo } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { LinkButton } from "../../../../../components/common/link-button"
 import { DateCell } from "../../../../../components/table/table-cells/common/date-cell"
 import { PlaceholderCell } from "../../../../../components/table/table-cells/common/placeholder-cell"

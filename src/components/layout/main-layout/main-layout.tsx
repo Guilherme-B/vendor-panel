@@ -16,11 +16,11 @@ import {
 } from "@medusajs/icons"
 import { Avatar, Divider, Text, clx } from "@medusajs/ui"
 import { Collapsible as RadixCollapsible } from "radix-ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 
 import { Skeleton } from "../../common/skeleton"
-import { INavItem, NavItem } from "../../layout/nav-item"
-import { Shell } from "../../layout/shell"
+import { INavItem, NavItem } from "../nav-item"
+import { Shell } from "../shell"
 
 import { useLocation } from "react-router-dom"
 import { useMe } from "../../../hooks/api"

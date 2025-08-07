@@ -1,7 +1,7 @@
 import { InlineTip, Input, Switch } from "@medusajs/ui"
 import { ComponentType } from "react"
 import { ControllerRenderProps, UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { Form } from "../../../components/common/form"
 import { FormField } from "../../types"
 import { FormFieldType } from "./types"

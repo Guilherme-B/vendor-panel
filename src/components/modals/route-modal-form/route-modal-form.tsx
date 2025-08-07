@@ -1,7 +1,7 @@
 import { Prompt } from "@medusajs/ui"
 import { PropsWithChildren } from "react"
 import { FieldValues, UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { useBlocker } from "react-router-dom"
 import { Form } from "../../common/form"
 

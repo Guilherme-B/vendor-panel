@@ -2,7 +2,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { AdminPromotion } from "@medusajs/types"
 import { Button, Input, RadioGroup, Text } from "@medusajs/ui"
 import { useForm } from "react-hook-form"
-import { Trans, useTranslation } from "react-i18next"
+import { Trans, useTranslation } from "../../../../../../node_modules/react-i18next"
 import * as zod from "zod"
 
 import { Form } from "../../../../../components/common/form"

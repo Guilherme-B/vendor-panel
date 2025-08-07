@@ -1,6 +1,6 @@
 import { HttpTypes } from "@medusajs/types"
 import { useMemo } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 import { createDataGridHelper } from "../../../../components/data-grid"
 import { DataGridReadOnlyCell } from "../../../../components/data-grid/components"
 import { DataGridTogglableNumberCell } from "../../../../components/data-grid/components/data-grid-toggleable-number-cell"

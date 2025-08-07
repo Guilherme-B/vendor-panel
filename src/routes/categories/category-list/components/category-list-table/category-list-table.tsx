@@ -1,7 +1,7 @@
 import { Button, Container, Heading, Text } from "@medusajs/ui"
 import { keepPreviousData } from "@tanstack/react-query"
 import { useMemo } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { Link } from "react-router-dom"
 import { _DataTable } from "../../../../../components/table/data-table"

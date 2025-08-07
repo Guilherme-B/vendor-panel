@@ -7,7 +7,7 @@ import {
 } from "@tanstack/react-table"
 import { useEffect, useMemo, useState } from "react"
 import { useForm } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import * as zod from "zod"
 
 import { HttpTypes } from "@medusajs/types"

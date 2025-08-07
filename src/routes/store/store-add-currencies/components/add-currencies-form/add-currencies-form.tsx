@@ -5,7 +5,7 @@ import {
   RowSelectionState,
 } from "@tanstack/react-table"
 import { useCallback, useMemo, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import * as zod from "zod"
 
 import { zodResolver } from "@hookform/resolvers/zod"

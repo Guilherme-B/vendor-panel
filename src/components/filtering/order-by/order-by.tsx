@@ -1,7 +1,7 @@
 import { ArrowUpDown } from "@medusajs/icons"
 import { DropdownMenu, IconButton } from "@medusajs/ui"
 import { useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { useSearchParams } from "react-router-dom"
 
 type OrderByProps = {

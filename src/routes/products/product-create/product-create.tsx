@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { RouteFocusModal } from "../../../components/modals"
 import { useSalesChannels } from "../../../hooks/api"
 import { useStore } from "../../../hooks/api/store"

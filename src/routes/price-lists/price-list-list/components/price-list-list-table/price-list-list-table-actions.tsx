@@ -1,7 +1,7 @@
 import { PencilSquare, Trash } from "@medusajs/icons"
 import { HttpTypes } from "@medusajs/types"
 
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { useDeletePriceListAction } from "../../../common/hooks/use-delete-price-list-action"
 

@@ -1,7 +1,7 @@
 import { HandTruck, PencilSquare } from "@medusajs/icons"
 import { Container, Heading } from "@medusajs/ui"
 import { Fragment } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { NoRecords } from "../../../../../components/common/empty-table-content"

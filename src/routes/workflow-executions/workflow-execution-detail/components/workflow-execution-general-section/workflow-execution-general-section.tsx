@@ -7,7 +7,7 @@ import {
   Text,
   clx,
 } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { getTransactionState, getTransactionStateColor } from "../../../utils"
 import { HttpTypes } from "@medusajs/types"
 import { TransactionState, TransactionStepState } from "../../../types"

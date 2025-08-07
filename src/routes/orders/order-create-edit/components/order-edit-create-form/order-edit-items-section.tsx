@@ -1,7 +1,7 @@
 import { AdminOrder, AdminOrderPreview } from "@medusajs/types"
 import { Button, Heading, Input, toast } from "@medusajs/ui"
 import { useMemo, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import {
   RouteFocusModal,
   StackedFocusModal,

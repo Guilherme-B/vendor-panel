@@ -3,7 +3,7 @@ import { Popover as RadixPopover } from "radix-ui"
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { useSearchParams } from "react-router-dom"
 
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 import { DataTableFilterContext, useDataTableFilterContext } from "./context"
 import { DateFilter } from "./date-filter"
 import { NumberFilter } from "./number-filter"

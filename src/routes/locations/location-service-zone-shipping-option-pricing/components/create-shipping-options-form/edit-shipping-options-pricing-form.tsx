@@ -5,7 +5,7 @@ import * as zod from "zod"
 
 import { HttpTypes } from "@medusajs/types"
 import { Button, toast } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { DataGrid } from "../../../../../components/data-grid"
 import {

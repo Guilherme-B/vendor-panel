@@ -1,6 +1,6 @@
 import { Tooltip } from "@medusajs/ui"
-import { format } from "date-fns/format"
-import { useTranslation } from "react-i18next"
+import { format } from "../../../../../../node_modules/date-fns/format"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { PlaceholderCell } from "../placeholder-cell"
 
 type DateCellProps = {

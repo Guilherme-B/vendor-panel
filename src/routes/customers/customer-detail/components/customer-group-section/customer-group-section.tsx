@@ -12,7 +12,7 @@ import { t } from "i18next"
 import { useMemo, useState } from "react"
 
 import { PencilSquare, Trash } from "@medusajs/icons"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { Link } from "react-router-dom"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"

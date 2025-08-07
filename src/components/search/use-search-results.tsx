@@ -2,7 +2,7 @@ import { HttpTypes } from "@medusajs/types"
 import { keepPreviousData } from "@tanstack/react-query"
 import { TFunction } from "i18next"
 import { useCallback, useEffect, useMemo, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../node_modules/react-i18next"
 import {
   useApiKeys,
   useCampaigns,

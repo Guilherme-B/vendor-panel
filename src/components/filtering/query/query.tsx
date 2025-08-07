@@ -1,7 +1,7 @@
 import { Input } from "@medusajs/ui"
 import { debounce } from "lodash"
 import { ChangeEvent, useCallback, useEffect, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { useSearchParams } from "react-router-dom"
 
 type QueryProps = {

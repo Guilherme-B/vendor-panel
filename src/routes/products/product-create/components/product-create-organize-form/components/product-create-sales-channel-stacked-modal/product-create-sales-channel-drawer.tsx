@@ -6,7 +6,7 @@ import {
 } from "@medusajs/ui"
 import { useEffect, useMemo, useState } from "react"
 import { UseFormReturn } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../../../node_modules/react-i18next"
 
 import { keepPreviousData } from "@tanstack/react-query"
 import { DataTable } from "../../../../../../../components/data-table"

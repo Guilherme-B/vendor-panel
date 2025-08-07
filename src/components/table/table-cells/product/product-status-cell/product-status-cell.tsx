@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { StatusCell } from "../../common/status-cell"
 import { HttpTypes } from "@medusajs/types"

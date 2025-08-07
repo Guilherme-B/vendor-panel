@@ -4,7 +4,7 @@ import ReactCountryFlag from "react-country-flag"
 
 import { ExclamationCircle, MapPin, Plus, Trash } from "@medusajs/icons"
 import { ComponentPropsWithoutRef, ReactNode } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { Link } from "react-router-dom"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { IconAvatar } from "../../../../../components/common/icon-avatar"

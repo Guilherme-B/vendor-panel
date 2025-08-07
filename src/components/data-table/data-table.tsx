@@ -16,7 +16,7 @@ import {
   useDataTable,
 } from "@medusajs/ui"
 import React, { ReactNode, useCallback, useState } from "react"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../node_modules/react-i18next"
 import { Link, useNavigate, useSearchParams } from "react-router-dom"
 
 import { useQueryParams } from "../../hooks/use-query-params"

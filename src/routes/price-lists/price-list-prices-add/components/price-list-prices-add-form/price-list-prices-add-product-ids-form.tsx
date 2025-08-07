@@ -8,7 +8,7 @@ import {
 } from "@tanstack/react-table"
 import { useMemo, useState } from "react"
 import { UseFormReturn, useWatch } from "react-hook-form"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { _DataTable } from "../../../../../components/table/data-table"
 import { useProducts } from "../../../../../hooks/api/products"
 import { useProductTableColumns } from "../../../../../hooks/table/columns/use-product-table-columns"

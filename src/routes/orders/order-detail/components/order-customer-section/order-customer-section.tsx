@@ -1,5 +1,5 @@
 import { Container, Heading } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 import { CustomerInfo } from "../../../../../components/common/customer-info"
 import { HttpTypes } from "@medusajs/types"
 

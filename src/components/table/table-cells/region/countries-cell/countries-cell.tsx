@@ -1,5 +1,5 @@
 import { HttpTypes } from "@medusajs/types"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../../node_modules/react-i18next"
 
 import { countries as COUNTRIES } from "../../../../../lib/data/countries"
 import { ListSummary } from "../../../../common/list-summary"

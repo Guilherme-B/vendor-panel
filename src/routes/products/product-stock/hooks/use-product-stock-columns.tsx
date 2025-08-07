@@ -3,7 +3,7 @@ import { HttpTypes } from "@medusajs/types"
 import { Switch, Tooltip } from "@medusajs/ui"
 import { useCallback, useMemo } from "react"
 
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../../node_modules/react-i18next"
 import { Thumbnail } from "../../../../components/common/thumbnail"
 import { createDataGridHelper } from "../../../../components/data-grid"
 import { DataGridReadOnlyCell } from "../../../../components/data-grid/components"

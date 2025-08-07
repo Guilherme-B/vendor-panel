@@ -1,5 +1,5 @@
 import { Heading, Input, Select, clx } from "@medusajs/ui"
-import { useTranslation } from "react-i18next"
+import { useTranslation } from "../../../../node_modules/react-i18next"
 import { z } from "zod"
 
 import { HttpTypes } from "@medusajs/types"
